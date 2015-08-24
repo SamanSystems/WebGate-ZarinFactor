@@ -1,0 +1,61 @@
+
+@import url("cssrest.css");
+@import url("http://www.fontonline.ir/css/BYagut.css");
+@import url("http://yui.yahooapis.com/pure/0.6.0/pure-min.css");
+@import url("pure.css");
+
+*{
+  font-family:'BYagut',Sans-Serif;
+  font-size:14px;
+}
+
+.clearfix {
+clear: both;
+}
+
+A {
+text-decoration: none;
+}
+
+#container {
+width: 60%;
+height: auto;
+margin: auto;
+margin-top: 10px;
+}
+
+.zf_hr {
+background: #eeeeee;
+width: auto;
+height: 1px;
+}
+
+.zf_box {
+width: auto;
+height: 400px;
+padding: 5px;
+border-left: 1px solid #eeeeee;
+}
+
+.zf_box li {
+list-style: none;
+margin-bottom: 20px;
+}
+
+.zf_box li img {
+margin-top: -10px;
+}
+
+.zf_box li {
+opacity: 0.5;
+}
+
+.zf_box li.active {
+opacity: 1;
+}
+
+.zf_boxwb {
+width: auto;
+height: auto;
+padding: 5px;
+}
